@@ -1,0 +1,160 @@
+HTML :-
+
+1st tab :-
+    => HTML IS NOT A PROGRAMMING LANGUAGE IT IS A MARKUP LANGUAGE OR TAG ORIENTED LANGUAGE.(HTML IS HIGH LEVEL PROGRAMMING LANGUAGE.) 
+      HTML IS NOT CASE SENSITIVE.
+      IT IS INTERPRETED BASED LANGUAGE BROWSER INTERPRETS HTML CODE.
+      INTERPRETER TRANSLATING THE CODE LINE BY LINE AND EXECUTES LINE BY LINE.
+-------------------------------------------------------------------------------------------
+2nd tab :-
+    => 3>HEAD SECTION :-It contains web page settings code & configuration code .
+-It mainly consist of following tags
+1>title
+2>link
+3>base
+4>style
+5>script
+6>meta tag
+
+3>BODY SECTION :- It contains web page designing code 
+Ex:- h1,p,table,button,input,a,img,br,ol,ul etc …
+-------------------------------------------------------------------------------------------
+3rd tab :-
+
+=> cool (Syntax 
+	&word;
+	&#code; - generally this code is 6 digits and some are 4 digits
+
+-90% of html tag size is 16 px and the font model is times new roman.
+
+-special char is an english word but should be placed within “& ;” 
+
+ex :
+
+&copy;(copyright symbols)
+&trade;(trademark symbol)
+&reg;(register symbol)
+&frac12; (output is ½ ).
+)
+-------------------------------------------------------------------------------------------
+4th tab :-
+=> 
+
+1>strong or b     ==>(text ko bold karega)
+2>em or i    ==>(italic karega text ko)
+3>delete or s    ==>(150 cut karke 100 dhikha )
+4>insert or u     ==>(bakwas)
+5>sub tag    ==>(chemistry ka co2 example)
+6>sup tag    ==>(matemathics ka exapme sqaure root 2 )
+7>mark tag    ==>(text highlight karna defaul yellow)
+8>span tag    ==>(very usefull *****)
+9>big tag    ==>(bekar)
+10>pre tag    ==>(bekar)
+
+-------------------------------------------------------------------------------------------
+5th tab :-
+
+==><title>ankit gupta</title>
+    <link rel="icon" href="choose file address">
+    TITLE SETTINGS
+
+-Used to set the title for web pages.
+-1 webpage contains only 1 title 
+-If a website contains 100 pages then we have to set 100 titles .
+-It is a paired tag.
+
+Syn:
+<title>text</title>
+
+
+LINK SETTINGS
+
+-Used to set logos for web pages.
+-Per page one logo if 100 page 100 logo.
+-Also used to link up html with css programs.
+-It is unpair tag
+
+Syn:
+<link rel=”icon” href=”imagename with address”>
+
+Rel -> relative(icon or stylesheet)
+Href -> hyper reference (address of file)
+--------------------------------------------------------------------------------------
+6th tab :-
+
+==>Attributes
+
+- Attributes are nothing but special feature of the tag
+- Attributes are used to make some settings related to tags and provide some information to the browser.
+
+Syn:
+    <tag attribute =”val” attribute=”val”>
+-Based on the purpose of the program we have to use the attributes.
+
+Note: - Attribute must be type right side of the tag.
+-After every attribute space is compulsory . 
+-”val” or ‘val’ or val are all allowed formats for the value but “val” is recommended.
+-Types of attributes 
+
+1>Global attribute
+2>Optional attribute
+3>Specific attribute 
+4>Event attribute
+
+-Global,Optional,Specific attributes are general purpose.
+
+-Event is dynamic attribute 
+
+>General : Settings related and providing information to the browser.
+>Dynamic : Calling javascript or invoking javascript. 
+
+<html lang =”en”> optional attribute 
+
+<link rel=”icon” href=”logo.png”> specific attribute
+
+Align -> Global Attribute
+
+
+
+EVENT ATTRIBUTE
+
+
+-Event means occasion and situation.
+-ex: User clicked Button user is typing that all are event.
+
+Event -Action & reaction. 
+ -> switch board example 
+
+How to identify it is event attributes ?
+
+-> It starts with “on”.
+	Ex- onclick ,onmousehover,onmouseout,oninput,onsubmit.
+
+ 	<h1 onclick =”alert(“hi user how are you”)”> hello </h1>
+
+
+--------------------------------------------------------------------------------------
+7th to 11th tab :- 
+
+till today what we have completed 
+html,head,body
+h1 h2 h3 h4 h5 h6
+p br 
+strong b ins u del s em i mark sub sup span pre big 
+title link 
+img a 
+ol ul li dl dd dt  
+hr
+fieldset and legend 
+div
+table ->> caption ,tr,th,td,thead,tbody,tfoot 
+
+attributes
+
+lang , rel(icon),href,align,id
+src,height,width,title(tooltip),alt,border..
+target(new tab current tab etc )
+type,start,reveresed
+color,size
+cellpadding , cellspacing(both for table tag)
+rawspan , colspan(for child tags)
