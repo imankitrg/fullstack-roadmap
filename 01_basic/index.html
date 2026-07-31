@@ -54,9 +54,46 @@
     <a href="#gun ">Guntur</a>
 
 
+    <h1>demo on select and option tag</h1>
+    <form action="" method="get">
+        <label>Which college?</label><br>
 
-    <p align="justify">Gujarat Titans (Playing XI): Sai Sudharsan, Shubman Gill(c), Jos Buttler(w), Washington Sundar,
-        Shahrukh Khan, Rahul Tewatia, Karim Janat, Rashid Khan, Ravisrinivasan Sai Kishore, Mohammed Siraj, Prasidh
+
+        <select id="clg" name="clg">
+            <option value="PU">PARUL UNIVERSITY</option>
+            <option value="GTU">GUJARAT TECHNICAL UNIVERSITY</option>
+            <option value="SPU">SARDAR PATEL UNIVERSITY</option>
+            <option value="NONE" selected>--SELECT YOUR COLLEGE--</option>
+
+
+        </select>
+
+
+        <input type="button" value="submit" onclick="submit()">
+
+
+    </form>
+    <h3>demo on details and summary tag</h3>
+    <details>
+        <summary>
+            what is the age limit to get the drivers license?
+        </summary>
+        <div>
+            -> Your age must be 18 or more to get the license.
+        </div>
+
+
+        <!-- instead of div we can use any type of tag  -->
+    </details>
+
+
+
+
+
+    <p align="justify">Gujarat Titans (Playing XI): Sai Sudharsan, Shubman Gill(c), Jos Buttler(w), Washington
+        Sundar,
+        Shahrukh Khan, Rahul Tewatia, Karim Janat, Rashid Khan, Ravisrinivasan Sai Kishore, Mohammed Siraj,
+        Prasidh
         Krishna</p>
 
 
@@ -90,7 +127,18 @@
             </ol>
         </li>
     </ol>
+    <input type="date">
+    <input type="time">
+    <input type="file">
+    <textarea name="address" id=""></textarea>
 
+
+    <audio controls muted autoplay>
+        <source src="/01_basic/assest/file_example_MP3_5MG.mp3" type="audio/mp3">
+    </audio>
+    <video controls muted loop autoplay>
+        <source src="/01_basic/assest/VID-20250707-WA0005.mp4" type="video/mp4">
+    </video>
 
 </body>
 
