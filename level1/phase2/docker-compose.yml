@@ -1,0 +1,14 @@
+services:
+  backend:
+    image: ankitrg/phase2-backend:latest
+    build: ./backend
+    ports:
+      - "8080:3000"
+
+  frontend:
+    image: ankitrg/phase2-frontend:latest
+    build: ./forntend/my-app
+    ports:
+      - "5000:3000"
+    depends_on:
+      - backend
