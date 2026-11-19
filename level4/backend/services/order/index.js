@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express()
-const port = 8002
+const port = process.env.PORT || 8002
 
 app.get('/', (req, res) => {
     res.status(200).json({ massage: "hello form order service " })
