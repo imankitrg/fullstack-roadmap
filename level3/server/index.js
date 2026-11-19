@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.status(200).json({ massage: "hello form phase 1 " })
+    res.status(200).json({ massage: `hello form server ${process.env.SERVER_NAME} ` })
 })
 
 app.listen(port, () => {
